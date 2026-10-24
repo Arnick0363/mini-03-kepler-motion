@@ -1,0 +1,18 @@
+# ---- 隐私红线：轨迹原始数据不入库（与 Q2 纪律一致）----
+data/
+*.gpx
+*.fit
+
+# ---- 虚拟环境 ----
+venv/
+.venv/
+
+# ---- Python 产物 ----
+__pycache__/
+*.py[cod]
+
+# ---- IDE / 系统 ----
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
