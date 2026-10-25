@@ -1,17 +1,20 @@
-# ---- 隐私红线：轨迹原始数据不入库（与 Q2 纪律一致）----
-data/
+# 个人原始轨迹不入库。教学样本和由它生成的 Kepler 文件可以提交。
+data/private/
 *.gpx
 *.fit
 
-# ---- 虚拟环境 ----
+# 动图用的底图缓存
+.tilecache/
+
+# 虚拟环境
 venv/
 .venv/
 
-# ---- Python 产物 ----
+# Python
 __pycache__/
 *.py[cod]
 
-# ---- IDE / 系统 ----
+# IDE / 系统
 .vscode/
 .idea/
 Thumbs.db
